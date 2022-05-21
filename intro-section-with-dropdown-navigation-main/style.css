@@ -22,12 +22,16 @@
 a{
   text-decoration: none;
 }
+a:hover{
+  color:var(--AlmostBlack);
+}
 
 li{
   list-style: none;
   padding:10px;
   margin:0 20px;
 }
+
 nav{
   width:100%;
 
@@ -47,7 +51,14 @@ nav{
   display:flex;
   justify-content: space-between;
 }
-
+main {
+  width:100%;
+  margin:0px 100px;
+  padding-right: 1000px;
+  padding-left: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+}
 .main__logo{
   padding:10px;
   margin-top: 15px;
@@ -59,3 +70,24 @@ p{
 .nav__bar--right{
   padding:10px;
 }
+
+h1{
+  color:var(--AlmostBlack);
+  font-size: 100px;
+}
+
+
+
+.container__right{
+margin:100px;
+height: 50%;
+width:50%;
+}
+
+.desktop__image img {
+  width: 100%;
+  height:auto;
+
+}
+
+
