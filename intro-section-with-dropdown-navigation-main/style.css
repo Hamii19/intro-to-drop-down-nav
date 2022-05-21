@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+:root { 
+--AlmostWhite: hsl(0, 0%, 98%);
+--MediumGray: hsl(0, 0%, 41%);
+--AlmostBlack: hsl(0, 0%, 8%);
+}
+
 *{
   margin:0;
   padding:0;
   box-sizing: border-box;
+  font-family: 'Epilogue' ,sans-serif;
+  color: var(--MediumGray);
 }
 .attribution { 
    font-size: 11px; text-align: center; 
@@ -10,8 +19,43 @@
    color: hsl(228, 45%, 44%);
    }
     
-:root { 
---AlmostWhite: hsl(0, 0%, 98%);
---MediumGray: hsl(0, 0%, 41%);
---AlmostBlack: hsl(0, 0%, 8%);
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+  padding:10px;
+  margin:0 20px;
+}
+nav{
+  width:100%;
+
+}
+
+.nav__bar--left{
+  display:flex; 
+  flex-direction: row;
+}
+.nav__link{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  margin: 10px 0px;
+}
+.nav__bar{
+  display:flex;
+  justify-content: space-between;
+}
+
+.main__logo{
+  padding:10px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+p{
+  font-size: 18px;
+}
+.nav__bar--right{
+  padding:10px;
 }
